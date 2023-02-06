@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 void sol() {
-    cout << "Anurag Sharma" << endl;
+    int a = 10, b = 20;
+    cout << a + b << endl;
 }
 int main ()
 {
