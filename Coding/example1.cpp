@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
+void sol() {
+    cout << "Anurag Sharma" << endl;
+}
 int main ()
 {
-    cout << "Anurag Sharma" << endl;
-    return 0;
+        sol();
+        return 0;
 }
