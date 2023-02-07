@@ -2,7 +2,8 @@
 using namespace std;
 void sol() {
     int a = 10, b = 20;
-    cout << a + b << endl;
+    cout << a + b << " ANS"<< endl;
+
 }
 int main ()
 {
