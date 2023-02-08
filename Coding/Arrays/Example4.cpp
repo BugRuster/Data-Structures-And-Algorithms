@@ -20,3 +20,8 @@ int main ()
     }
     return 0;
 }
+
+
+// this is the proagram for "Passing array as Argument in C++"
+// this is the only method in C or in C++ to passing array like this 
+// this is the finest method for passsing array in C++ as Argumnets.
