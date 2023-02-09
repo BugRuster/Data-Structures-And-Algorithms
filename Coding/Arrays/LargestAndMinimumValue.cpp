@@ -10,7 +10,7 @@ int large(int arr[], int size) {
     }
     return largest;
 }
-
+// This is the code for Linear Search
 int mini(int arr[], int size) {
     int minimum = INT_MAX; // Plus Infinity
     for (int i = 0; i < size; i++) {
