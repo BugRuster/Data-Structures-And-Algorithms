@@ -11,13 +11,13 @@ int large(int arr[], int size) {
     return largest;
 }
 // This is the code for Linear Search
-int mini(int arr[], int size) {
-    int minimum = INT_MAX; // Plus Infinity
-    for (int i = 0; i < size; i++) {
-        if (minimum > arr[i]) minimum = arr[i];
-    }
-    return minimum;
-}
+// int mini(int arr[], int size) {
+//     int minimum = INT_MAX; // Plus Infinity
+//     for (int i = 0; i < size; i++) {
+//         if (minimum > arr[i]) minimum = arr[i];
+//     }
+//     return minimum;
+// }
 int main() {
     int arr[] = {2, 3, 5, 8, 10, 1, 9};
     int size = sizeof(arr) / sizeof(arr[0]);
