@@ -6,7 +6,7 @@ void printSubarrays(int arr[], int size) {
         int first = arr[i];
         for (int j = i; j < size; j++) {
             int end = arr[j];
-            for (int k = first; k <= end-1; k++) {
+            for (int k = first; k <= end - 1; k++) {
                 cout << arr[k] << " ";
             }
             cout << endl;
