@@ -63,7 +63,7 @@ void MaximuSubarraySum(int arr[], int size) {
 int main ()
 {
     int arr[] = {1 ,-2, 6, -1 ,3};
-    int size = sizeof(arr)/sizeof(arr[0]);
+    int size = sizeof(arr)/sizeof(arr[0]); // Working as Main Function
     MaximuSubarraySum(arr, size);
     return 0;
 }
