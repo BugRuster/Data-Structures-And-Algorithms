@@ -21,4 +21,6 @@ int main ()
     int size = sizeof(arr) / sizeof(arr[0]);
     printSubarrays(arr, size);
     return 0;
-}
+} // THis is the most common example of the Series
+
+// @BugRuster
