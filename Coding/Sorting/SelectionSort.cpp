@@ -5,8 +5,8 @@ void SelectionSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
         int min = i;
         for (int j = i + 1; j < size - 1; j++) {
-            if (arr[min] < arr[j]) {
-                min = j;
+            if (arr[min] < arr[j]) { // Comparing The elements of the array
+                min = j; 
             }
         }
         // Swaping 

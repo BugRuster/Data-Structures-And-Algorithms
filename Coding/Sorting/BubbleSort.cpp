@@ -3,7 +3,7 @@ using namespace std;
 
 void BubbleSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
-        for (int j = 0; j < size - 1 - i; j++) { // This Loop Will 
+        for (int j = 0; j < size - 1 - i; j++) { // This Loop Will select one element of the array 
             if (arr[j] > arr[j + 1]) {
                 int temp = arr[j];
                 arr[j] = arr[j + 1];

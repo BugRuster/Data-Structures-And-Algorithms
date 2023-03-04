@@ -2,7 +2,7 @@
 using namespace std;
 
 void MaximuSubarraySum(int arr[], int size) { // this is a brute force method with worst complexity of O(n^3)
-    int MaxSum = INT16_MIN; // initilizing the maxsum to - infinity
+    int MaxSum = INT16_MIN; // initializing the maxsum to - infinity
     int CurrentSum = 0;
 
 
@@ -69,3 +69,4 @@ int main ()
 }
 
 
+// @BugRuster
